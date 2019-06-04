@@ -8,16 +8,25 @@
 
 import SwiftUI
 
+let items = ["WWDC19", "Swift!!", "Apple!!"]
+
 struct ContentView : View {
     var body: some View {
-        Text("Hello World")
+        NavigationView {
+            List {
+                Text(items[0])
+                Text(items[1])
+                Text(items[2])
+            }
+            .navigationBarTitle((Text("Hello, SwiftUI!!")))
+        }
     }
 }
-
-#if DEBUG
-struct ContentView_Previews : PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
-#endif
+//
+//#if DEBUG
+//struct ContentView_Previews : PreviewProvider {
+//    static var previews: some View {
+//        ContentView()
+//    }
+//}
+//#endif
