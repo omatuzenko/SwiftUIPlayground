@@ -15,6 +15,7 @@
 		D70F76D322A67D8200004BFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D70F76D122A67D8200004BFC /* LaunchScreen.storyboard */; };
 		D70F76DE22A67D8300004BFC /* SwiftUIPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70F76DD22A67D8300004BFC /* SwiftUIPlaygroundTests.swift */; };
 		D70F76E922A67D8300004BFC /* SwiftUIPlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70F76E822A67D8300004BFC /* SwiftUIPlaygroundUITests.swift */; };
+		D70F76F722A6854C00004BFC /* ListSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70F76F622A6854C00004BFC /* ListSampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D70F76E422A67D8300004BFC /* SwiftUIPlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIPlaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D70F76E822A67D8300004BFC /* SwiftUIPlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPlaygroundUITests.swift; sourceTree = "<group>"; };
 		D70F76EA22A67D8300004BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D70F76F622A6854C00004BFC /* ListSampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListSampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		D70F76C522A67D8100004BFC /* SwiftUIPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				D70F76F622A6854C00004BFC /* ListSampleView.swift */,
 				D70F76C622A67D8100004BFC /* AppDelegate.swift */,
 				D70F76C822A67D8100004BFC /* SceneDelegate.swift */,
 				D70F76CA22A67D8100004BFC /* ContentView.swift */,
@@ -269,6 +272,7 @@
 			files = (
 				D70F76C722A67D8100004BFC /* AppDelegate.swift in Sources */,
 				D70F76C922A67D8100004BFC /* SceneDelegate.swift in Sources */,
+				D70F76F722A6854C00004BFC /* ListSampleView.swift in Sources */,
 				D70F76CB22A67D8100004BFC /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

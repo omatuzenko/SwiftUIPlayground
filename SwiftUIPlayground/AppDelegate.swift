@@ -8,6 +8,8 @@
 
 import UIKit
 
+// https://developer.apple.com/tutorials/swiftui/tutorials
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
