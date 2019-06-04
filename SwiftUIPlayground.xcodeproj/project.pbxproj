@@ -109,7 +109,7 @@
 		D70F76C522A67D8100004BFC /* SwiftUIPlayground */ = {
 			isa = PBXGroup;
 			children = (
-				D70F76FE22A699F000004BFC /* AppleDeveloperTutorials */,
+				D70F76FE22A699F000004BFC /* AppleDeveloperTutorials_Map */,
 				D70F76C622A67D8100004BFC /* AppDelegate.swift */,
 				D70F76C822A67D8100004BFC /* SceneDelegate.swift */,
 				D70F76CA22A67D8100004BFC /* ContentView.swift */,
@@ -147,7 +147,7 @@
 			path = SwiftUIPlaygroundUITests;
 			sourceTree = "<group>";
 		};
-		D70F76FE22A699F000004BFC /* AppleDeveloperTutorials */ = {
+		D70F76FE22A699F000004BFC /* AppleDeveloperTutorials_Map */ = {
 			isa = PBXGroup;
 			children = (
 				D70F76F822A694AF00004BFC /* StackComponentsView.swift */,
@@ -156,7 +156,7 @@
 				D70F76FC22A698EC00004BFC /* MapView.swift */,
 				D70F76FF22A69A2300004BFC /* MapDetailsView.swift */,
 			);
-			path = AppleDeveloperTutorials;
+			path = AppleDeveloperTutorials_Map;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
