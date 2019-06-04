@@ -17,6 +17,7 @@
 		D70F76E922A67D8300004BFC /* SwiftUIPlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70F76E822A67D8300004BFC /* SwiftUIPlaygroundUITests.swift */; };
 		D70F76F722A6854C00004BFC /* ListSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70F76F622A6854C00004BFC /* ListSampleView.swift */; };
 		D70F76F922A694AF00004BFC /* StackComponentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70F76F822A694AF00004BFC /* StackComponentsView.swift */; };
+		D70F76FB22A6980C00004BFC /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70F76FA22A6980C00004BFC /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		D70F76EA22A67D8300004BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D70F76F622A6854C00004BFC /* ListSampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListSampleView.swift; sourceTree = "<group>"; };
 		D70F76F822A694AF00004BFC /* StackComponentsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackComponentsView.swift; sourceTree = "<group>"; };
+		D70F76FA22A6980C00004BFC /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				D70F76D122A67D8200004BFC /* LaunchScreen.storyboard */,
 				D70F76D422A67D8200004BFC /* Info.plist */,
 				D70F76CE22A67D8200004BFC /* Preview Content */,
+				D70F76FA22A6980C00004BFC /* CircleImage.swift */,
 			);
 			path = SwiftUIPlayground;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				D70F76C922A67D8100004BFC /* SceneDelegate.swift in Sources */,
 				D70F76F722A6854C00004BFC /* ListSampleView.swift in Sources */,
 				D70F76CB22A67D8100004BFC /* ContentView.swift in Sources */,
+				D70F76FB22A6980C00004BFC /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
