@@ -16,6 +16,7 @@
 		D70F76DE22A67D8300004BFC /* SwiftUIPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70F76DD22A67D8300004BFC /* SwiftUIPlaygroundTests.swift */; };
 		D70F76E922A67D8300004BFC /* SwiftUIPlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70F76E822A67D8300004BFC /* SwiftUIPlaygroundUITests.swift */; };
 		D70F76F722A6854C00004BFC /* ListSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70F76F622A6854C00004BFC /* ListSampleView.swift */; };
+		D70F76F922A694AF00004BFC /* StackComponentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70F76F822A694AF00004BFC /* StackComponentsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		D70F76E822A67D8300004BFC /* SwiftUIPlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPlaygroundUITests.swift; sourceTree = "<group>"; };
 		D70F76EA22A67D8300004BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D70F76F622A6854C00004BFC /* ListSampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListSampleView.swift; sourceTree = "<group>"; };
+		D70F76F822A694AF00004BFC /* StackComponentsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackComponentsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		D70F76C522A67D8100004BFC /* SwiftUIPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				D70F76F822A694AF00004BFC /* StackComponentsView.swift */,
 				D70F76F622A6854C00004BFC /* ListSampleView.swift */,
 				D70F76C622A67D8100004BFC /* AppDelegate.swift */,
 				D70F76C822A67D8100004BFC /* SceneDelegate.swift */,
@@ -271,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D70F76C722A67D8100004BFC /* AppDelegate.swift in Sources */,
+				D70F76F922A694AF00004BFC /* StackComponentsView.swift in Sources */,
 				D70F76C922A67D8100004BFC /* SceneDelegate.swift in Sources */,
 				D70F76F722A6854C00004BFC /* ListSampleView.swift in Sources */,
 				D70F76CB22A67D8100004BFC /* ContentView.swift in Sources */,
